@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'atkinson1';
+    src: url('atkinson-hyperlegible-regular-102-webfont.woff2');
+}
+@font-face {
+    font-family: 'atkinson2';
+    src: url('atkinson-hyperlegible-bold-102-webfont.woff2');
+}
+
+body{
+    background-color: #f3eee4;
+    margin: 0px;
+    height: 100vh;
+
+}
+
+h1{
+    font-family: 'atkinson2';
+    font-size: 60px;
+    color: #1c2334;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+h2{
+    font-family: 'atkinson2';
+    font-size: 50px;
+    color: #1c2334;
+    margin-bottom: 20px;
+    padding-left: 100px;
+    line-height: 50px;
+}
+strong{
+    font-family: 'atkinson1';
+    font-size: 25px;
+    color: #bb1450;
+}
+p{
+    font-size: 25px;
+    color: #1c2334;
+    padding-left: 100px;
+}
+
+.container{
+    background-color: #e5bf55;
+    width: auto;
+    height: 500px;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+span{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #bb1450;
+}
+
+.button-check{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #1c2334;
+    color: white;
+    border:1px solid deeppink;
+}
+
+.button-follow{
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #e5bf55;
+    color: #1c2334;
+    font-weight: bolder;
+    border: 2px solid #1c2334;
+}
+
+.info{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+.info2{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding-bottom: 100px;
+}
